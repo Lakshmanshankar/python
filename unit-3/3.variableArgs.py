@@ -17,9 +17,8 @@ def addtion(*args):  # *args will consider as a tuple
 print(add(1,2)) #3
 print(addtion(1,2,3,4)) #10
 
+
 ## Kwargs -> Keyword Arguments
-
-
 def kwargsfunc(**kwargs):  # *kwargs will consider as dict
     print(kwargs)
 
@@ -27,7 +26,6 @@ kwargsfunc(name="Alex",age=21)
 
 
 ## default arguments
-
 def defualtName(first,name='hello'):
     print(first,name)
 defualtName('alex') # alex hello

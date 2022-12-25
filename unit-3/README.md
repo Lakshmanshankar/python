@@ -29,13 +29,42 @@ function definition will contain all the code. these function definition can be 
 
 example:
 refer 
-[1.functions.py](https://github.com/Lakshmanshankar/python/unit-3/)
+[1.functions.py](https://github.com/Lakshmanshankar/python/tree/main/unit-3)
 
 ### calling
 function calling the part where you call the definied function when you call the function then only the code inside the function will run
+
 To call a function type functionname followed by a parenthesis 
 example:
 func()
 
 
+## Type conversion
+Type Conversion is the conversion of an object from one data type to another data type.
+Implicit Type Conversion is automatically performed by the Python interpreter. 
 
+Python avoids the loss of data in Implicit Type Conversion.   \ \(@ - @)/ /
+
+
+Mainly there are two types of conversion 
+Implicit and Explicit
+
+
+## Implicit
+Done by python interpreter 
+Python does not loss the values when implicitly conver the type
+ refer 5.types.py
+
+## Explict Conversion
+Convert the data type by us data loss may occur during explicit type conversion aka type casting
+
+
+## Type coersion
+The automatic type conversion from one data type to another is called as Type Coercion. This is also called as Implicit Type Conversion. 
+
+The major difference between Type Conversion and Type Coercion is that, type conversion is done manually using built-in functions where as type coercion is done automatically.
+
+
+## Function as args
+python allow us to give functions as input to another functions
+more refer 6.func2func.py
