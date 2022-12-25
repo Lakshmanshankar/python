@@ -1,0 +1,1 @@
+kisoho:21 is your name,age written into the file
