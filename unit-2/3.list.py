@@ -46,14 +46,15 @@ print(lis)
 ## aliasing
 list1=[1,2,3]
 list2=list1
+print(id(list1),id(list2),"! important")  # both ids are same
 list2.append(10)
 print(list1) #[1,2,3,10]
 
-# cloning
-list1=[1,2,3]
-list2=list1.copy()
-list2.append(10)
-print(list1) #[1,2,3]
+# # cloning
+# list1=[1,2,3]
+# list2=list1.copy()
+# list2.append(10)
+# print(list1) #[1,2,3]
 
 
 
